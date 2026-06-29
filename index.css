@@ -106,12 +106,168 @@
 .n5-husnegt {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
-.suhbaatar {
+.suhbaatartom {
   background-color: beige;
   width: 500px;
   height: 100px;
   border-radius: 50px;
-  display: flex;align-items: center
-  ;font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
+.suhbaatar {
+}
+.Amarbaysgalantom {
+  background-color: greenyellow;
+  width: 500px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.Amarbaysgalan {
+}
+.Khorgiintom {
+  background-color: yellow;
+  width: 500px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.khorgin {
+}
+.Terkhiintom {
+  background-color: blue;
+  width: 500px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.Terkhiin {
+}
+.Khuvsgultom {
+  background-color: darkblue;
+  width: 500px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.Khuvsgul {
+}
+.Day1 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Day2 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Day3 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Day4 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Day5 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.doodoh {
+  background-image: url(Price&Footer\ image.png);
+  width: 1440px;
+  height: 1120px;
+}
+.Frame176 {
+  background-image: url(Frame\ 176.png);
+  width: 369px;
+  height: 369px;
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+  opacity: 0;
+}
+.Frame177 {
+  background-image: url(Frame\ 177.png);
+  width: 369px;
+  height: 369px;
+  position: absolute;
+  top: 150px;
+  left: 800px;
+  opacity: 0;
+}
+.Frame178 {
+  background-image: url(Frame\ 178.png);
+  width: 369px;
+  height: 369px;
+  position: absolute;
+  top: 200px;
+  left: 850px;
+  opacity: 0;
+}
+.Frame179 {
+  background-image: url(Frame\ 179.png);
+  width: 369px;
+  height: 369px;
+  position: absolute;
+  top: 250px;
+  left: 750px;
+  opacity: 0;
+}
+.p11111-png {
+  background-image: url(11111\ \(1\).png);
+  width: 369px;
+  height: 369px;
+  position: absolute;
+  top: 300px;
+  left: 700px;
+  opacity: 0;
+}
+.n5-husnegt:has(.suhbaatartom:hover) .Frame176 {
+opacity: 1;
+}
+.n5-husnegt:has(.Amarbaysgalantom) .Frame177{opacity: 1;}
+.n5-husnegt:has(.Khorgiintom) .Frame178{opacity: 1;}
+.n5-husnegt:has(.Terkhiintom) .Frame179{opacity: 1;}
+.n5-husnegt:has(.Khuvsgultom) .p11111-png{opacity: 1;}
