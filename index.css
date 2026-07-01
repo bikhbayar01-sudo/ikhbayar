@@ -265,9 +265,45 @@
   opacity: 0;
 }
 .n5-husnegt:has(.suhbaatartom:hover) .Frame176 {
-opacity: 1;
+  opacity: 1;
 }
-.n5-husnegt:has(.Amarbaysgalantom) .Frame177{opacity: 1;}
-.n5-husnegt:has(.Khorgiintom) .Frame178{opacity: 1;}
-.n5-husnegt:has(.Terkhiintom) .Frame179{opacity: 1;}
-.n5-husnegt:has(.Khuvsgultom) .p11111-png{opacity: 1;}
+.n5-husnegt:has(.Amarbaysgalantom:hover) .Frame177 {
+  opacity: 1;
+}
+.n5-husnegt:has(.Khorgiintom:hover) .Frame178 {
+  opacity: 1;
+}
+.n5-husnegt:has(.Terkhiintom:hover) .Frame179 {
+  opacity: 1;
+}
+.n5-husnegt:has(.Khuvsgultom:hover) .p11111-png {
+  opacity: 1;
+}
+.doodohhh {
+}
+.Price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.price2 {
+  font-size: 30px;
+}
+.choose {
+  font-size: 19px;
+}
+.husnegt1 {
+  background-color: white;
+  width: 382px;
+  height: 527px;
+  border-radius: 30px;
+  }
+  
+.une{width: 1327px;
+height: 527px;
+display: flex;
+justify-content: space-between;
+padding-left: 50px;
+margin-top: 30px;
+}
